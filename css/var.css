@@ -1,0 +1,37 @@
+:root{
+/* colors */
+    --pink: #ff52bf;
+    --light-pink: #ff8fd8;
+    --light-red: #ff4242;
+    --very-dark-cyan: #00252e;
+    --very-pale-blue: #f5faff;
+    --white: #ffffff;
+    --gray: #a1a1a1;
+    
+/* font */
+    --poppins: poppins, sans-serif;
+    --sans: 'open sans', sans-serif;
+
+/* weights */
+    --regular: 400;
+    --semi-bold: 600;
+    --bold: 700;
+
+/* font sizes */
+/* poppins */
+    --pop-sm: 0.6rem
+    --pop-md: 16px;
+    --h-font: 1.1rem; 
+    --pop-lg: 1.4rem;
+    --pop-xl: 1.5rem;
+    --pop-xxl: 3.5rem;
+/* open sans */
+    --p-font: 0.9rem;
+    --a-font: 0.8rem;
+    --sans-md: 16px;
+    --sans-lg: 18px;
+    --sans-xl: 20px;
+
+    /* temp variables */
+    --border: 2px solid yellow;
+}

@@ -1,0 +1,57 @@
+.container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5{
+    font-family: var(--poppins);
+    line-height: 1.1;
+}
+a{
+    display: inline-block;
+    font-family: var(--sans);
+    font-size: var(--a-font);
+}
+h2{
+    font-size: var(--h-font);
+}
+p{
+    font-family: var(--sans);
+    line-height: 1.6;
+    font-size: var(--p-font);
+}
+h1{
+    font-size: var(--pop-xl);
+    line-height: 1.2;
+}
+h3{
+    font-size: var(--pop-lg);
+    color: var(--baige);
+}
+h4{
+    font-family: var(--sans);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+img{
+    max-width: 100%;
+}
+button{
+    border: none;
+    outline: none;
+    display: inline-block;
+}
+.news__desc, .footer__desc{
+    font-size: .85rem;
+}
